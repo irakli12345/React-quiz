@@ -1,10 +1,10 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Questionnaire from "./components/Questionnaire";
 function App() {
   return (
     <div className="App">
-      <h1>God is Good</h1>
+      <Questionnaire></Questionnaire>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import { combineReducers } from "redux";
 import currentQuestionReducer from "./currentQuestionReducer";
 
 const reducers = combineReducers({
-  currentQuestion: currentQuestionReducer,
+  currentQuestionIndex: currentQuestionReducer,
 });
 
 export default reducers;

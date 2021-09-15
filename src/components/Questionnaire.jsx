@@ -3,7 +3,15 @@ import Question from "./Question";
 import { useEffect } from "react";
 
 function Questionnaire() {
-  useEffect(() => console.log("boo"), []);
+  useEffect(async () => {
+    try {
+      const res = await fetch("http://localhost:3000/questions");
+      const data = await res.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+  }, []);
   return (
     <div class="container">
       <h2>11/17 Question</h2>

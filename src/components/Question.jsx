@@ -1,6 +1,6 @@
 function Question() {
   return (
-    <div class="question">
+    <div className="question">
       <p>hellooo</p>
     </div>
   );

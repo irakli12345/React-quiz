@@ -1,12 +1,8 @@
 /* I can make it a generic button, which I'll use for all three:
 Start, Go Back, Reset, Submit*/
 
-function Button() {
-  return (
-    <div>
-      <button>Content from Prop</button>
-    </div>
-  );
+function Button({ text }) {
+  return <button>{text}</button>;
 }
 
 export default Button;

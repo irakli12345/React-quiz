@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "question": "Which is HTML-like Syntax commonly used in React Applications?",
+      "multipleChoiceAnswers": ["TypeScript", "CoffeeScript", "JSX", "JSON"],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "Why do component names have to start with Capital letter?",
+      "multipleChoiceAnswers": [
+        "Because of TypeScript",
+        "To avoid Bugs",
+        "To avoid confusion with regular HTML elements",
+        "None of the Above"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What's the name of the object we use to pass down data from parent to children?",
+      "multipleChoiceAnswers": ["state", "props", "hooks", "event"],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What is the purpose of interpolation brackets?",
+      "multipleChoiceAnswers": [
+        "To execute bits of JavaScript within JSX",
+        "To facilitate data flow",
+        "To access the state",
+        "To handle the events"
+      ],
+      "correctAnswerIndex": 0
+    },
+    {
+      "question": "What does setState function do?",
+      "multipleChoiceAnswers": [
+        "Mutates existing state",
+        "Merges existing state with the new state",
+        "Deletes the State",
+        "Creates a new state"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Which hook is the alternative to lifecycle methods?",
+      "multipleChoiceAnswers": [
+        "useRef",
+        "useState",
+        "useEffect",
+        "None of the Above"
+      ],
+      "correctAnswerIndex": 2
+    },
+    {
+      "question": "What is the biggest advantage of UI components?",
+      "multipleChoiceAnswers": [
+        "Simplicity",
+        "Reusability",
+        "Easy to design",
+        "Other"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "Can Functional components have a state, and how?",
+      "multipleChoiceAnswers": [
+        "They can't",
+        "They can, using lifecycle methods",
+        "They can, using Web API",
+        "They can, using React hooks"
+      ],
+      "correctAnswerIndex": 3
+    },
+    {
+      "question": "Which file lists all the project dependencies?",
+      "multipleChoiceAnswers": [
+        "App.js",
+        "package.json",
+        "index.js",
+        "App.css"
+      ],
+      "correctAnswerIndex": 1
+    },
+    {
+      "question": "What arguments does useEffect function accept?",
+      "multipleChoiceAnswers": [
+        "The state object",
+        "External url",
+        "String",
+        "function, array"
+      ],
+      "correctAnswerIndex": 3
+    }
+  ]
+}

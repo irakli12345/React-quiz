@@ -24,3 +24,12 @@ export const resetQuestion = () => {
     });
   };
 };
+
+export const addQuestions = (arr) => {
+  return (dispatch) => {
+    dispatch({
+      type: "add-questions",
+      payload: arr,
+    });
+  };
+};

@@ -29,11 +29,7 @@ function Button({ text }) {
       return null;
     }
   };
-  return (
-    <button onClick={pickAction(text)}>
-      {text} {currentQuestionIndex}
-    </button>
-  );
+  return <button onClick={pickAction(text)}>{text}</button>;
 }
 
 export default Button;
